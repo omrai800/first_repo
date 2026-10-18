@@ -460,3 +460,39 @@ social-links a {
         section {padding: 30px 15px;}
     }
 }
+@media screen and (max-width:768px) {
+ #about, #skills, #projects, #contact {
+        padding: 40px 20px;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        padding: 50px 20px;
+        box-sizing: border-box;
+        height: auto;
+        min-height: auto;
+        overflow: visible;
+    } 
+    #about h2 ,#about ,h3 #about p {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        text-align: center;
+        transform: none;
+        box-sizing: border-box;
+    } 
+    #about h2{
+        font-size: 32px;
+    }
+    #about h3 {
+        font-size: 24px;
+        overflow-wrap: anywhere;
+
+    }
+    
+    #about p {
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+    
+}
